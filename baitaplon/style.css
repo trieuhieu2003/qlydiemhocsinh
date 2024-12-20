@@ -1,0 +1,125 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bg-top1 {
+  height: 65px;
+  border-bottom: 1px solid black;
+}
+.option-web a {
+  text-decoration: none;
+  color: black;
+  margin-right: 30px;
+  font-size: 15px;
+}
+.option-web {
+  list-style: none;
+  display: flex;
+  margin-top: 25px;
+}
+.option-web-right {
+  position: relative;
+  right: -150px;
+}
+.logo-web {
+  position: relative;
+  bottom: -20px;
+}
+.bg-top2 {
+  background-color: #282a35;
+  height: 35px;
+}
+.option-web a:hover {
+  color: orangered;
+}
+
+/* chỉnh sửa search*/
+.search-container {
+  display: flex;
+  border: 1px solid #ccc;
+  align-items: center;
+  border-radius: 20px;
+  position: relative;
+  bottom: -15px;
+  left: -75px;
+  height: 40px;
+  width: 190px;
+}
+.search-input {
+  outline: none;
+  border: none;
+  width: 135px;
+  border-radius: 20px;
+  margin-left: 15px;
+}
+.search-icon img {
+  width: 30px;
+}
+
+.container-infor {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+.container-infor a {
+  color: red;
+}
+/*chỉnh sửa footer*/
+footer {
+  margin-top: 100px;
+}
+.footer-container {
+  background-color: #4c4c4c;
+  position: relative;
+  top: 30px;
+}
+.footer-luachon {
+  font-size: 15px;
+  list-style: none;
+  color: #b6b6b6;
+  text-decoration: none;
+}
+.footer-chinhsach {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+.footer-hotro {
+  list-style: none;
+  margin-left: -30px;
+  margin-top: 15px;
+}
+.footer-luachon:hover {
+  color: #ea5a2a;
+}
+.footer-house {
+  display: flex;
+  justify-content: center;
+}
+.footer-map {
+  display: flex;
+  justify-content: center;
+}
+.box-map {
+  width: 250px;
+  height: 45px;
+  background-color: #ea5a2a;
+  color: white;
+  margin-top: 20px;
+  font-size: 17px;
+}
+.footer-top {
+  padding-top: 40px;
+}
+.footer-social {
+  margin-top: -20px;
+  color: white;
+  font-size: 23px;
+  font-weight: 500;
+}
+.footer-logo {
+  margin-top: -20px;
+}
+#main-menu li {
+  position: relative;
+}
+/*chỉnh sửa menu*/

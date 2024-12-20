@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bg-top1 {
+  height: 65px;
+  border-bottom: 1px solid black;
+}
+.option-web a {
+  text-decoration: none;
+  color: black;
+  margin-right: 30px;
+  font-size: 15px;
+}
+.option-web {
+  list-style: none;
+  display: flex;
+  margin-top: 25px;
+}
+.option-web-right {
+  position: relative;
+  right: -150px;
+}
+.logo-web {
+  position: relative;
+  bottom: -20px;
+}
+.bg-top2 {
+  background-color: #282a35;
+  height: 35px;
+}
+.option-web a:hover {
+  color: orangered;
+}
+
+/* chỉnh sửa search*/
+.search-container {
+  display: flex;
+  border: 1px solid #ccc;
+  align-items: center;
+  border-radius: 20px;
+  position: relative;
+  bottom: -15px;
+  left: -75px;
+  height: 40px;
+  width: 190px;
+}
+.search-input {
+  outline: none;
+  border: none;
+  width: 135px;
+  border-radius: 20px;
+  margin-left: 15px;
+}
+.search-icon img {
+  width: 30px;
+}
+
+/*chỉnh sửa item*/
+.chia_manhinh1-6 {
+  width: 25%;
+}
+.chia_manhinh5-6 {
+  width: 75%;
+}
+.chia_manhinh5-6 {
+  position: relative;
+  right: 30px;
+}
+.text_items {
+  color: black;
+  text-align: center;
+  position: relative;
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+.type-items {
+  text-align: center;
+  position: relative;
+  bottom: 10px;
+}
+.price {
+  text-align: center;
+
+  bottom: 15px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.text_items:hover {
+  color: orangered;
+}
+.dashed-line {
+  border-style: dashed;
+  border-width: 1px;
+  color: rgb(186, 173, 173);
+}
+.spacer {
+  border-style: dashed;
+  border-width: 1px;
+  color: rgb(186, 173, 173);
+  width: 200px;
+}
+img {
+  width: 100%;
+}
+.center-img {
+  margin-top: 25px;
+}
